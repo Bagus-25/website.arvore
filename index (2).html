@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arvore — Design. WiFi. VPS.</title>
+    <meta name="description"
+        content="Arvore adalah solusi terpadu untuk kebutuhan desain kreatif, infrastruktur WiFi, dan layanan VPS profesional Anda." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <header class="nav" id="navbar">
+        <div class="container nav__inner">
+            <a href="#" class="nav__logo" id="nav-logo">
+                <span class="logo-mark">⬡</span>
+                <span class="logo-name">Arvore</span>
+            </a>
+            <nav class="nav__links" id="nav-links">
+                <a href="#services" class="nav__link">Layanan</a>
+                <a href="#why" class="nav__link">Keunggulan</a>
+                <a href="#pricing" class="nav__link">Harga</a>
+                <a href="#contact" class="nav__link">Kontak</a>
+            </nav>
+            <a href="#contact" class="btn btn--sm" id="nav-cta">Mulai Sekarang</a>
+            <button class="nav__burger" id="burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#services" class="mobile-menu__link">Layanan</a>
+        <a href="#why" class="mobile-menu__link">Keunggulan</a>
+        <a href="#pricing" class="mobile-menu__link">Harga</a>
+        <a href="#contact" class="mobile-menu__link">Kontak</a>
+        <a href="#contact" class="btn btn--full">Mulai Sekarang</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero__bg-grid"></div>
+        <div class="container hero__inner">
+            <div class="hero__badge">
+                <span class="badge-dot"></span>
+                Tersedia untuk proyek baru
+            </div>
+            <h1 class="hero__title">
+                Satu Atap untuk<br />
+                <span class="text-gradient">Desain, WiFi &amp; VPS</span>
+            </h1>
+            <p class="hero__desc">
+                Arvore menghadirkan layanan kreatif dan infrastruktur teknologi dalam satu ekosistem yang terintegrasi,
+                profesional, dan siap skala.
+            </p>
+            <div class="hero__actions">
+                <a href="#services" class="btn btn--primary" id="hero-cta-primary">Jelajahi Layanan</a>
+                <a href="#contact" class="btn btn--ghost" id="hero-cta-ghost">Hubungi Kami →</a>
+            </div>
+            <div class="hero__stats">
+                <div class="stat">
+                    <span class="stat__num">200+</span>
+                    <span class="stat__label">Klien Puas</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat__num">99.9%</span>
+                    <span class="stat__label">Uptime VPS</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat__num">24/7</span>
+                    <span class="stat__label">Support Aktif</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll-hint" id="scroll-hint">
+            <span>scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Layanan</span>
+                <h2 class="section-title">Apa yang kami tawarkan</h2>
+                <p class="section-sub">Tiga pilar utama yang menjadi fondasi Arvore — dirancang untuk memenuhi kebutuhan
+                    bisnis modern Anda.</p>
+            </div>
+            <div class="services__grid">
+
+                <!-- Design -->
+                <article class="service-card" id="card-design">
+                    <div class="service-card__icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 20h9" />
+                            <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
+                        </svg>
+                    </div>
+                    <span class="service-card__num">01</span>
+                    <h3 class="service-card__title">Desain Kreatif</h3>
+                    <p class="service-card__desc">Identitas visual yang kuat, UI/UX yang intuitif, dan materi pemasaran
+                        yang meninggalkan kesan mendalam.</p>
+                    <ul class="service-card__list">
+                        <li>Brand Identity &amp; Logo</li>
+                        <li>UI/UX Design</li>
+                        <li>Desain Media Sosial</li>
+                        <li>Materi Cetak &amp; Digital</li>
+                    </ul>
+                    <a href="#contact" class="service-card__link">Konsultasi gratis →</a>
+                </article>
+
+                <!-- WiFi -->
+                <article class="service-card service-card--accent" id="card-wifi">
+                    <div class="service-card__icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12.55a11 11 0 0114.08 0" />
+                            <path d="M1.42 9a16 16 0 0121.16 0" />
+                            <path d="M8.53 16.11a6 6 0 016.95 0" />
+                            <circle cx="12" cy="20" r="1" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <span class="service-card__num">02</span>
+                    <h3 class="service-card__title">Infrastruktur WiFi</h3>
+                    <p class="service-card__desc">Jaringan nirkabel enterprise-grade yang stabil, aman, dan dapat
+                        dikelola dari mana saja.</p>
+                    <ul class="service-card__list">
+                        <li>Perencanaan &amp; Instalasi</li>
+                        <li>Manajemen Bandwidth</li>
+                        <li>Hotspot &amp; Captive Portal</li>
+                        <li>Monitoring Real-time</li>
+                    </ul>
+                    <a href="#contact" class="service-card__link">Konsultasi gratis →</a>
+                </article>
+
+                <!-- VPS -->
+                <article class="service-card" id="card-vps">
+                    <div class="service-card__icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="8" rx="2" />
+                            <rect x="2" y="14" width="20" height="8" rx="2" />
+                            <line x1="6" y1="6" x2="6.01" y2="6" />
+                            <line x1="6" y1="18" x2="6.01" y2="18" />
+                        </svg>
+                    </div>
+                    <span class="service-card__num">03</span>
+                    <h3 class="service-card__title">Layanan VPS</h3>
+                    <p class="service-card__desc">Server virtual berperforma tinggi dengan SSD NVMe, IP dedicated, dan
+                        kontrol penuh di tangan Anda.</p>
+                    <ul class="service-card__list">
+                        <li>SSD NVMe Dedicated</li>
+                        <li>Uptime 99.9% SLA</li>
+                        <li>Panel Kontrol Intuitif</li>
+                        <li>Backup Otomatis Harian</li>
+                    </ul>
+                    <a href="#contact" class="service-card__link">Lihat paket →</a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="why section" id="why">
+        <div class="container">
+            <div class="why__inner">
+                <div class="why__content">
+                    <span class="section-tag">Keunggulan</span>
+                    <h2 class="section-title">Mengapa memilih Arvore?</h2>
+                    <p class="section-sub" style="max-width:420px;">Kami tidak hanya memberikan layanan — kami membangun
+                        kemitraan jangka panjang yang mendorong pertumbuhan bisnis Anda.</p>
+                    <div class="why__items">
+                        <div class="why-item" id="why-1">
+                            <div class="why-item__icon">✦</div>
+                            <div>
+                                <h4>Solusi Terintegrasi</h4>
+                                <p>Satu vendor untuk desain, jaringan, dan infrastruktur — lebih efisien, lebih
+                                    terkoordinasi.</p>
+                            </div>
+                        </div>
+                        <div class="why-item" id="why-2">
+                            <div class="why-item__icon">✦</div>
+                            <div>
+                                <h4>Tim Berpengalaman</h4>
+                                <p>Didukung oleh profesional bersertifikat dengan rekam jejak proyek nasional dan
+                                    internasional.</p>
+                            </div>
+                        </div>
+                        <div class="why-item" id="why-3">
+                            <div class="why-item__icon">✦</div>
+                            <div>
+                                <h4>Respons Cepat</h4>
+                                <p>Dukungan teknis siap membantu dalam hitungan menit, bukan jam. Kami selalu ada.</p>
+                            </div>
+                        </div>
+                        <div class="why-item" id="why-4">
+                            <div class="why-item__icon">✦</div>
+                            <div>
+                                <h4>Harga Transparan</h4>
+                                <p>Tanpa biaya tersembunyi. Setiap rupiah yang Anda keluarkan memberikan nilai nyata.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why__visual">
+                    <div class="visual-card" id="visual-card">
+                        <div class="visual-card__header">
+                            <div class="vc-dot vc-dot--r"></div>
+                            <div class="vc-dot vc-dot--y"></div>
+                            <div class="vc-dot vc-dot--g"></div>
+                            <span style="margin-left:8px; font-size:11px; opacity:.5;">arvore.dashboard</span>
+                        </div>
+                        <div class="visual-card__body">
+                            <div class="vc-metric">
+                                <span class="vc-label">VPS Uptime</span>
+                                <span class="vc-value vc-value--up">99.98%</span>
+                            </div>
+                            <div class="vc-bar-wrap">
+                                <div class="vc-bar" style="width:99.98%"></div>
+                            </div>
+                            <div class="vc-metric" style="margin-top:16px;">
+                                <span class="vc-label">WiFi Clients Online</span>
+                                <span class="vc-value">148</span>
+                            </div>
+                            <div class="vc-bar-wrap">
+                                <div class="vc-bar vc-bar--mid" style="width:74%"></div>
+                            </div>
+                            <div class="vc-metric" style="margin-top:16px;">
+                                <span class="vc-label">Design Projects</span>
+                                <span class="vc-value">24 aktif</span>
+                            </div>
+                            <div class="vc-bar-wrap">
+                                <div class="vc-bar vc-bar--lo" style="width:48%"></div>
+                            </div>
+                            <div class="vc-footer">
+                                <span class="vc-status-dot"></span>
+                                <span>Semua sistem berjalan normal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Harga</span>
+                <h2 class="section-title">Paket yang fleksibel</h2>
+                <p class="section-sub">Pilih paket yang sesuai dengan kebutuhan dan skala bisnis Anda. Upgrade kapan
+                    saja.</p>
+            </div>
+            <div class="pricing__grid">
+
+                <div class="price-card" id="price-starter">
+                    <div class="price-card__tag">Starter</div>
+                    <div class="price-card__price">Rp 299<span>rb/bln</span></div>
+                    <p class="price-card__desc">Cocok untuk individu dan bisnis kecil yang baru memulai.</p>
+                    <ul class="price-card__features">
+                        <li><span class="check">✓</span> 1 Brand Identity Design</li>
+                        <li><span class="check">✓</span> WiFi hingga 20 user</li>
+                        <li><span class="check">✓</span> VPS 1 vCPU / 1GB RAM</li>
+                        <li><span class="check">✓</span> 50 GB SSD Storage</li>
+                        <li><span class="check">✓</span> Support via email</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--outline btn--full" id="price-starter-cta">Pilih Starter</a>
+                </div>
+
+                <div class="price-card price-card--featured" id="price-pro">
+                    <div class="price-card__badge">Paling Populer</div>
+                    <div class="price-card__tag">Professional</div>
+                    <div class="price-card__price">Rp 799<span>rb/bln</span></div>
+                    <p class="price-card__desc">Dirancang untuk bisnis berkembang yang butuh performa dan fleksibilitas.
+                    </p>
+                    <ul class="price-card__features">
+                        <li><span class="check">✓</span> Unlimited Design Projects</li>
+                        <li><span class="check">✓</span> WiFi hingga 100 user</li>
+                        <li><span class="check">✓</span> VPS 4 vCPU / 8GB RAM</li>
+                        <li><span class="check">✓</span> 200 GB SSD NVMe</li>
+                        <li><span class="check">✓</span> Priority Support 24/7</li>
+                        <li><span class="check">✓</span> Monitoring Realtime</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary btn--full" id="price-pro-cta">Pilih Professional</a>
+                </div>
+
+                <div class="price-card" id="price-enterprise">
+                    <div class="price-card__tag">Enterprise</div>
+                    <div class="price-card__price">Custom<span></span></div>
+                    <p class="price-card__desc">Solusi khusus untuk perusahaan besar dengan kebutuhan yang kompleks.</p>
+                    <ul class="price-card__features">
+                        <li><span class="check">✓</span> Tim Desain Dedicated</li>
+                        <li><span class="check">✓</span> WiFi Enterprise Multi-site</li>
+                        <li><span class="check">✓</span> VPS Cluster Custom</li>
+                        <li><span class="check">✓</span> SLA 99.99% Guaranteed</li>
+                        <li><span class="check">✓</span> Account Manager Khusus</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--outline btn--full" id="price-enterprise-cta">Hubungi Sales</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <div class="contact__content">
+                    <span class="section-tag">Kontak</span>
+                    <h2 class="section-title">Siap memulai?</h2>
+                    <p class="section-sub" style="max-width:380px;">Ceritakan kebutuhan Anda dan tim kami akan
+                        menghubungi dalam 1x24 jam kerja.</p>
+                    <div class="contact__info">
+                        <div class="contact-info-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                            hello@arvore.id
+                        </div>
+                        <div class="contact-info-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                            </svg>
+                            +62 812-3456-7890
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form" id="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" name="name" placeholder="Nama lengkap Anda"
+                                autocomplete="name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="email@perusahaan.com"
+                                autocomplete="email" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Layanan yang diminati</label>
+                        <select id="service" name="service">
+                            <option value="">Pilih layanan...</option>
+                            <option value="design">Desain Kreatif</option>
+                            <option value="wifi">Infrastruktur WiFi</option>
+                            <option value="vps">Layanan VPS</option>
+                            <option value="bundle">Paket Bundling</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="4"
+                            placeholder="Ceritakan kebutuhan proyek Anda..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full" id="submit-btn">
+                        <span id="btn-text">Kirim Pesan</span>
+                        <span id="btn-loading" style="display:none;">Mengirim...</span>
+                    </button>
+                    <p class="form-note">Kami menghargai privasi Anda. Data tidak akan dibagikan ke pihak ketiga.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <a href="#" class="nav__logo">
+                    <span class="logo-mark">⬡</span>
+                    <span class="logo-name">Arvore</span>
+                </a>
+                <p>Solusi terintegrasi untuk desain, jaringan, dan infrastruktur digital Anda.</p>
+            </div>
+            <div class="footer__links">
+                <div class="footer__col">
+                    <h5>Layanan</h5>
+                    <a href="#services">Desain Kreatif</a>
+                    <a href="#services">Infrastruktur WiFi</a>
+                    <a href="#services">Layanan VPS</a>
+                </div>
+                <div class="footer__col">
+                    <h5>Perusahaan</h5>
+                    <a href="#">Tentang Kami</a>
+                    <a href="#">Karir</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+                <div class="footer__col">
+                    <h5>Legal</h5>
+                    <a href="#">Kebijakan Privasi</a>
+                    <a href="#">Syarat &amp; Ketentuan</a>
+                    <a href="#">SLA</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <span>© 2025 Arvore. Seluruh hak dilindungi.</span>
+                <span>Dibuat dengan ✦ oleh Tim Arvore</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
